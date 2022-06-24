@@ -1,0 +1,30 @@
+html,
+body{
+    background-color: #fcd0dd;
+}
+
+h1{
+    text-align: center;
+    font-size: 33px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #dc5a7a;
+    margin: 20px 0;
+}
+
+.aplicacion-tarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.lista-tarea {
+    width: 600px;
+    min-height: 500px;
+    background-color: white;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow:  #fb6f92 0px 0px 50px 20px;;
+}

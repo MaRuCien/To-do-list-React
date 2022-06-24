@@ -1,0 +1,62 @@
+.agregar-tarea {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.agregar-input {
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid pink;
+    outline: none;
+}
+
+.boton {
+    padding: 16px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffffee;
+    color: #e43863;
+    cursor: pointer;
+}
+
+.tarea {
+    width: 500px;
+    min-height: 65px;
+    background-color: #fb6f92;
+    margin: 10px 30px;
+    padding: 10px 20px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    border: 1px solid white;
+    overflow-wrap: anywhere;
+}
+
+.tarea:nth-child(3n + 1) {
+    background-color: #ffc9de;
+}
+
+.tarea:nth-child(3n + 2) {
+    background-color: #ccccff;
+}
+
+.tarea:nth-child(3n + 3) {
+    background-color: #d8ffd8;
+}
+
+.contador {
+    font-size: 17px;
+    text-shadow:  #fb6f92 1px 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
